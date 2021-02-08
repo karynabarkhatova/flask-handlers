@@ -84,4 +84,5 @@ def base58_decode(STRING_IN_BASE58):
     return decoded_str
 
 
-app.run()
+if __name__ == "__main__":
+    app.run()
